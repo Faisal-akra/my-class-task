@@ -1,0 +1,87 @@
+body,html{
+    background-image: url(./class-task1/images/car.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+
+#link{
+  margin-left: 70%;
+ 
+}
+
+
+h1 {
+ text-align: center;
+ text-shadow: 2px 2px 2px black;
+ 
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+   }
+   
+
+
+
+a{
+    text-decoration: none;
+    box-shadow: 2px 4px 5px red;
+   border: solid ;
+   padding: 1px;
+   text-shadow: 2px 2px 4px orange;
+  padding: 3px;
+  border-radius: 5px 20px 5px 20px;
+  color: lightyellow  
+  
+}
+
+a:hover{
+    background-color: green;
+  }
+  
+  a:active{
+    background-color: blue;
+  }
+  
+  a:focus{
+    background-color: red;
+  }
+
+#contain{
+    width: 350px;
+    height: 200px;
+    
+    padding: 5px;
+    font-weight: bolder;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 6px 6px 6px  black; 
+    color: white;
+}
+
+#link{
+ margin-right: 50%;
+
+}
+
+input{
+  border-radius: 10px;
+}
+
+input:hover{
+  background-color: yellow;
+}
+
+input:active{
+  background-color: blue;
+}
+
+input:focus{
+  background-color: red;
+}
