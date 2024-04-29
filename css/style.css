@@ -1,87 +1,38 @@
-body,html{
-    background-image: url(../images/car.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-
-    
+body{
+  background-image:  url(../images/car.png)  ;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-#link{
-  margin-left: 70%;
+#nav{
+ margin-left: 800px;
  
 }
-
-
-h1 {
- text-align: center;
- text-shadow: 2px 2px 2px black;
- 
-}
-
-p {
-    text-align: center;
-    font-size: x-large;
-   }
-   
-
-
 
 a{
-    text-decoration: none;
-    box-shadow: 2px 4px 5px red;
-   border: solid ;
-   padding: 1px;
-   text-shadow: 2px 2px 4px orange;
-  padding: 3px;
-  border-radius: 5px 20px 5px 20px;
-  color: lightyellow  
-  
+  color: white;
 }
 
-a:hover{
-    background-color: green;
-  }
-  
-  a:active{
-    background-color: blue;
-  }
-  
-  a:focus{
-    background-color: red;
-  }
 
 #contain{
-    width: 350px;
-    height: 200px;
-    
-    padding: 5px;
-    font-weight: bolder;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 6px 6px 6px  black; 
-    color: white;
+
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  position: relative;
+  top: 100px;
 }
 
-#link{
- margin-right: 50%;
-
+#footer{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input{
-  border-radius: 10px;
-}
-
-input:hover{
-  background-color: yellow;
-}
-
-input:active{
-  background-color: blue;
-}
-
-input:focus{
-  background-color: red;
+  position: relative;
+  left: 600px;
+  bottom: 60px;
 }
